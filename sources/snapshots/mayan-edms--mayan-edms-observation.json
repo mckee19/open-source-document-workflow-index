@@ -1,0 +1,38 @@
+{
+  "repository": "mayan-edms/mayan-edms",
+  "checked_at": "2026-11-21T21:14:33.489578+08:00",
+  "revision": "834ffec1b539171390358e60a0406870108514f5",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://gitlab.com/mayan-edms/mayan-edms.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\n834ffec1b539171390358e60a0406870108514f5\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://gitlab.com/mayan-edms/mayan-edms/-/raw/834ffec1b539171390358e60a0406870108514f5/README.rst",
+      "final_url": "https://gitlab.com/mayan-edms/mayan-edms/-/raw/834ffec1b539171390358e60a0406870108514f5/README.rst",
+      "path": "sources/snapshots/mayan-edms--mayan-edms-readme.txt",
+      "sha256": "d9d56d7f7b9903d26547bf7e4e44213f5f7a2c637f252817f0af542984f59ba7",
+      "http_status": 200,
+      "line_count": 90,
+      "upstream_filename": "README.rst"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://gitlab.com/mayan-edms/mayan-edms/-/raw/834ffec1b539171390358e60a0406870108514f5/LICENSE",
+      "final_url": "https://gitlab.com/mayan-edms/mayan-edms/-/raw/834ffec1b539171390358e60a0406870108514f5/LICENSE",
+      "path": "sources/snapshots/mayan-edms--mayan-edms-license.txt",
+      "sha256": "236e07d48e934ebd8546d59761281a779ccc984c39361fb89a3231fa3eae262d",
+      "http_status": 200,
+      "line_count": 24,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

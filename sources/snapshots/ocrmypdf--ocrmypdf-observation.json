@@ -1,0 +1,38 @@
+{
+  "repository": "ocrmypdf/OCRmyPDF",
+  "checked_at": "2026-11-21T21:14:27.899494+08:00",
+  "revision": "86a5e723ea2b612e8df4a647056b0ebf3b3c97a5",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/ocrmypdf/OCRmyPDF.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\n86a5e723ea2b612e8df4a647056b0ebf3b3c97a5\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/ocrmypdf/OCRmyPDF/86a5e723ea2b612e8df4a647056b0ebf3b3c97a5/README.md",
+      "final_url": "https://raw.githubusercontent.com/ocrmypdf/OCRmyPDF/86a5e723ea2b612e8df4a647056b0ebf3b3c97a5/README.md",
+      "path": "sources/snapshots/ocrmypdf--ocrmypdf-readme.txt",
+      "sha256": "b10f4270559ee2963754c1593dc25eabee971c7c1aedb597e23425cd17c9aca0",
+      "http_status": 200,
+      "line_count": 187,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/ocrmypdf/OCRmyPDF/86a5e723ea2b612e8df4a647056b0ebf3b3c97a5/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/ocrmypdf/OCRmyPDF/86a5e723ea2b612e8df4a647056b0ebf3b3c97a5/LICENSE",
+      "path": "sources/snapshots/ocrmypdf--ocrmypdf-license.txt",
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+      "http_status": 200,
+      "line_count": 373,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

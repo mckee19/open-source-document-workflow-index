@@ -1,0 +1,38 @@
+{
+  "repository": "cyanfish/naps2",
+  "checked_at": "2026-11-21T21:14:43.029450+08:00",
+  "revision": "07f1fd3667373e7a07dd095e9703a72d588e1a5a",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/cyanfish/naps2.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\n07f1fd3667373e7a07dd095e9703a72d588e1a5a\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/cyanfish/naps2/07f1fd3667373e7a07dd095e9703a72d588e1a5a/README.md",
+      "final_url": "https://raw.githubusercontent.com/cyanfish/naps2/07f1fd3667373e7a07dd095e9703a72d588e1a5a/README.md",
+      "path": "sources/snapshots/cyanfish--naps2-readme.txt",
+      "sha256": "4361c16c3ecf0bbd79d6e4bbf327927510be6d532b276201c88013d7c52a1db8",
+      "http_status": 200,
+      "line_count": 42,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/cyanfish/naps2/07f1fd3667373e7a07dd095e9703a72d588e1a5a/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/cyanfish/naps2/07f1fd3667373e7a07dd095e9703a72d588e1a5a/LICENSE",
+      "path": "sources/snapshots/cyanfish--naps2-license.txt",
+      "sha256": "e9e8ee8f069747db728edd62d38f032989de5c49ebf383d59ac64da84a157951",
+      "http_status": 200,
+      "line_count": 299,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,38 @@
+{
+  "repository": "opendocman/opendocman",
+  "checked_at": "2026-11-21T21:14:32.053453+08:00",
+  "revision": "6f29a4714b0cce7d2bcc0aa5d68bb87bb3bd0975",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/opendocman/opendocman.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\n6f29a4714b0cce7d2bcc0aa5d68bb87bb3bd0975\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/opendocman/opendocman/6f29a4714b0cce7d2bcc0aa5d68bb87bb3bd0975/README.md",
+      "final_url": "https://raw.githubusercontent.com/opendocman/opendocman/6f29a4714b0cce7d2bcc0aa5d68bb87bb3bd0975/README.md",
+      "path": "sources/snapshots/opendocman--opendocman-readme.txt",
+      "sha256": "81374a4e76eb7599cf2aeee1d64b7edf19c88bce28773d385590e2863d976e45",
+      "http_status": 200,
+      "line_count": 332,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/opendocman/opendocman/6f29a4714b0cce7d2bcc0aa5d68bb87bb3bd0975/LICENSE.txt",
+      "final_url": "https://raw.githubusercontent.com/opendocman/opendocman/6f29a4714b0cce7d2bcc0aa5d68bb87bb3bd0975/LICENSE.txt",
+      "path": "sources/snapshots/opendocman--opendocman-license.txt",
+      "sha256": "945d624e60b2431c1f2b3fd5547d09bd115e9ce97716c43c1f28dc4e3de557c8",
+      "http_status": 200,
+      "line_count": 281,
+      "upstream_filename": "LICENSE.txt"
+    }
+  ],
+  "failures": []
+}

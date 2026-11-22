@@ -1,0 +1,38 @@
+{
+  "repository": "artefactual/archivematica",
+  "checked_at": "2026-11-21T21:14:34.930188+08:00",
+  "revision": "8b715e088c0f6e908ae742805ce696d3ba851de7",
+  "branch": "qa/1.x",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/artefactual/archivematica.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/qa/1.x\tHEAD\n8b715e088c0f6e908ae742805ce696d3ba851de7\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/artefactual/archivematica/8b715e088c0f6e908ae742805ce696d3ba851de7/README.md",
+      "final_url": "https://raw.githubusercontent.com/artefactual/archivematica/8b715e088c0f6e908ae742805ce696d3ba851de7/README.md",
+      "path": "sources/snapshots/artefactual--archivematica-readme.txt",
+      "sha256": "d5442bc95986a9d1d97f56d2c864247af97476820bd159625d6fcf78e9aee3c7",
+      "http_status": 200,
+      "line_count": 123,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/artefactual/archivematica/8b715e088c0f6e908ae742805ce696d3ba851de7/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/artefactual/archivematica/8b715e088c0f6e908ae742805ce696d3ba851de7/LICENSE",
+      "path": "sources/snapshots/artefactual--archivematica-license.txt",
+      "sha256": "91b65277959ec273763d28ef002e83a6b3fba57c7a35436c9e5b66536333d720",
+      "http_status": 200,
+      "line_count": 661,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

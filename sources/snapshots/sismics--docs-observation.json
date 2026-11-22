@@ -1,0 +1,38 @@
+{
+  "repository": "sismics/docs",
+  "checked_at": "2026-11-21T21:14:39.479317+08:00",
+  "revision": "5b39c4680b5a107a44d9d38bdf45e8fb6953128f",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/sismics/docs.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\n5b39c4680b5a107a44d9d38bdf45e8fb6953128f\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/sismics/docs/5b39c4680b5a107a44d9d38bdf45e8fb6953128f/README.md",
+      "final_url": "https://raw.githubusercontent.com/sismics/docs/5b39c4680b5a107a44d9d38bdf45e8fb6953128f/README.md",
+      "path": "sources/snapshots/sismics--docs-readme.txt",
+      "sha256": "a4ff0d1b86c10ae1c6a0e17c92673b4621ed8de26d542167c84b748ed3c5b7a6",
+      "http_status": 200,
+      "line_count": 246,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/sismics/docs/5b39c4680b5a107a44d9d38bdf45e8fb6953128f/COPYING",
+      "final_url": "https://raw.githubusercontent.com/sismics/docs/5b39c4680b5a107a44d9d38bdf45e8fb6953128f/COPYING",
+      "path": "sources/snapshots/sismics--docs-license.txt",
+      "sha256": "f371b80469fb235bc500ec29e0e85b682d4a6157a158567d828ff0be544d4f1d",
+      "http_status": 200,
+      "line_count": 339,
+      "upstream_filename": "COPYING"
+    }
+  ],
+  "failures": []
+}

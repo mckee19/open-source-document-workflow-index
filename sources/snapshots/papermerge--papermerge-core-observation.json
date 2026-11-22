@@ -1,0 +1,38 @@
+{
+  "repository": "papermerge/papermerge-core",
+  "checked_at": "2026-11-21T21:14:42.711522+08:00",
+  "revision": "831c2e355cf5c841c4587fea19d89e9b46a92b79",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/papermerge/papermerge-core.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\n831c2e355cf5c841c4587fea19d89e9b46a92b79\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/papermerge/papermerge-core/831c2e355cf5c841c4587fea19d89e9b46a92b79/README.md",
+      "final_url": "https://raw.githubusercontent.com/papermerge/papermerge-core/831c2e355cf5c841c4587fea19d89e9b46a92b79/README.md",
+      "path": "sources/snapshots/papermerge--papermerge-core-readme.txt",
+      "sha256": "662bf050023b6d346bdd71988242a723b7344ef6f19bcf2b439eccbc7a748f37",
+      "http_status": 200,
+      "line_count": 75,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/papermerge/papermerge-core/831c2e355cf5c841c4587fea19d89e9b46a92b79/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/papermerge/papermerge-core/831c2e355cf5c841c4587fea19d89e9b46a92b79/LICENSE",
+      "path": "sources/snapshots/papermerge--papermerge-core-license.txt",
+      "sha256": "d57c366fc553acaa4ca10ab3c9180d90083c72ab7e3e16f97659927bf71ef38e",
+      "http_status": 200,
+      "line_count": 178,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

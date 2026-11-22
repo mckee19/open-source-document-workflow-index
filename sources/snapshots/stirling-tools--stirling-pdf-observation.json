@@ -1,0 +1,38 @@
+{
+  "repository": "Stirling-Tools/Stirling-PDF",
+  "checked_at": "2026-11-21T21:14:27.002628+08:00",
+  "revision": "f5503b8910ad5cec06dd6125d7e96d985a6d1248",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/Stirling-Tools/Stirling-PDF.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\nf5503b8910ad5cec06dd6125d7e96d985a6d1248\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/Stirling-Tools/Stirling-PDF/f5503b8910ad5cec06dd6125d7e96d985a6d1248/README.md",
+      "final_url": "https://raw.githubusercontent.com/Stirling-Tools/Stirling-PDF/f5503b8910ad5cec06dd6125d7e96d985a6d1248/README.md",
+      "path": "sources/snapshots/stirling-tools--stirling-pdf-readme.txt",
+      "sha256": "0539da44759af7d1c3da8d76b00b892d9ebda4c82f9e161f01658f188a66ed86",
+      "http_status": 200,
+      "line_count": 69,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/Stirling-Tools/Stirling-PDF/f5503b8910ad5cec06dd6125d7e96d985a6d1248/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/Stirling-Tools/Stirling-PDF/f5503b8910ad5cec06dd6125d7e96d985a6d1248/LICENSE",
+      "path": "sources/snapshots/stirling-tools--stirling-pdf-license.txt",
+      "sha256": "e37c7ec776906aebe25e48288da4305afd45dee92f0231ddec68af59cbd7736b",
+      "http_status": 200,
+      "line_count": 42,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

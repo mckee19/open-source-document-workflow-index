@@ -1,0 +1,38 @@
+{
+  "repository": "paperless-ngx/paperless-ngx",
+  "checked_at": "2026-11-21T21:14:23.390172+08:00",
+  "revision": "4973be8499bc61dc4f791a609d0d31e9ac9ccd41",
+  "branch": "dev",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/paperless-ngx/paperless-ngx.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/dev\tHEAD\n4973be8499bc61dc4f791a609d0d31e9ac9ccd41\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/4973be8499bc61dc4f791a609d0d31e9ac9ccd41/README.md",
+      "final_url": "https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/4973be8499bc61dc4f791a609d0d31e9ac9ccd41/README.md",
+      "path": "sources/snapshots/paperless-ngx--paperless-ngx-readme.txt",
+      "sha256": "57aadae7f68c77d36a3ed5b2954129e8675b7e63c2453bf16c93bce774cdb7ec",
+      "http_status": 200,
+      "line_count": 99,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/4973be8499bc61dc4f791a609d0d31e9ac9ccd41/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/4973be8499bc61dc4f791a609d0d31e9ac9ccd41/LICENSE",
+      "path": "sources/snapshots/paperless-ngx--paperless-ngx-license.txt",
+      "sha256": "d62f065830aa3739cc031156b9690805c7b2e811b4a178c8b4acd8725d561c94",
+      "http_status": 200,
+      "line_count": 675,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

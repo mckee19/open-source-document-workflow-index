@@ -1,0 +1,38 @@
+{
+  "repository": "tesseract-ocr/tesseract",
+  "checked_at": "2026-11-21T21:14:32.516580+08:00",
+  "revision": "2516f31c560e056449b6d9e95e10c6feeb6ad618",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/tesseract-ocr/tesseract.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\n2516f31c560e056449b6d9e95e10c6feeb6ad618\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/tesseract-ocr/tesseract/2516f31c560e056449b6d9e95e10c6feeb6ad618/README.md",
+      "final_url": "https://raw.githubusercontent.com/tesseract-ocr/tesseract/2516f31c560e056449b6d9e95e10c6feeb6ad618/README.md",
+      "path": "sources/snapshots/tesseract-ocr--tesseract-readme.txt",
+      "sha256": "1a14c7cd54039ffb79e05aff12841f48d4d4da50f231ee98e7e9bb6138d03e7a",
+      "http_status": 200,
+      "line_count": 132,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/tesseract-ocr/tesseract/2516f31c560e056449b6d9e95e10c6feeb6ad618/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/tesseract-ocr/tesseract/2516f31c560e056449b6d9e95e10c6feeb6ad618/LICENSE",
+      "path": "sources/snapshots/tesseract-ocr--tesseract-license.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "http_status": 200,
+      "line_count": 202,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

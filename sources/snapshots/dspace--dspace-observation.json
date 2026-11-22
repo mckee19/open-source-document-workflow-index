@@ -1,0 +1,38 @@
+{
+  "repository": "DSpace/DSpace",
+  "checked_at": "2026-11-21T21:14:44.118167+08:00",
+  "revision": "7ad52048c3143f161f6cb8ad93b15243aad3913f",
+  "branch": "main",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/DSpace/DSpace.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/main\tHEAD\n7ad52048c3143f161f6cb8ad93b15243aad3913f\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/DSpace/DSpace/7ad52048c3143f161f6cb8ad93b15243aad3913f/README.md",
+      "final_url": "https://raw.githubusercontent.com/DSpace/DSpace/7ad52048c3143f161f6cb8ad93b15243aad3913f/README.md",
+      "path": "sources/snapshots/dspace--dspace-readme.txt",
+      "sha256": "c4d26db86760ddbb1f64c994aa1a12c45c06e47cbbc881e1155c8c0b96e126cb",
+      "http_status": 200,
+      "line_count": 133,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/DSpace/DSpace/7ad52048c3143f161f6cb8ad93b15243aad3913f/LICENSE",
+      "final_url": "https://raw.githubusercontent.com/DSpace/DSpace/7ad52048c3143f161f6cb8ad93b15243aad3913f/LICENSE",
+      "path": "sources/snapshots/dspace--dspace-license.txt",
+      "sha256": "baf9ee18d437bf88b271cb233298c1b032d38b7e1629274069651ebcdbddd005",
+      "http_status": 200,
+      "line_count": 31,
+      "upstream_filename": "LICENSE"
+    }
+  ],
+  "failures": []
+}

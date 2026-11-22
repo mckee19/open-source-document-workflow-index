@@ -1,0 +1,38 @@
+{
+  "repository": "eikek/docspell",
+  "checked_at": "2026-11-21T21:14:30.111490+08:00",
+  "revision": "751b0b834617c1f3d21fb738f4778e444ef316b0",
+  "branch": "master",
+  "identity_command": [
+    "git",
+    "ls-remote",
+    "--symref",
+    "https://github.com/eikek/docspell.git",
+    "HEAD"
+  ],
+  "identity_output": "ref: refs/heads/master\tHEAD\n751b0b834617c1f3d21fb738f4778e444ef316b0\tHEAD\n",
+  "identity_exit": 0,
+  "documents": [
+    {
+      "kind": "readme",
+      "upstream_url": "https://raw.githubusercontent.com/eikek/docspell/751b0b834617c1f3d21fb738f4778e444ef316b0/README.md",
+      "final_url": "https://raw.githubusercontent.com/eikek/docspell/751b0b834617c1f3d21fb738f4778e444ef316b0/README.md",
+      "path": "sources/snapshots/eikek--docspell-readme.txt",
+      "sha256": "f42da0fa001239c1cfe4026df8f7bf65f3cd7ce4bf2f88a9b3b1994f67f6f207",
+      "http_status": 200,
+      "line_count": 131,
+      "upstream_filename": "README.md"
+    },
+    {
+      "kind": "license",
+      "upstream_url": "https://raw.githubusercontent.com/eikek/docspell/751b0b834617c1f3d21fb738f4778e444ef316b0/LICENSE.txt",
+      "final_url": "https://raw.githubusercontent.com/eikek/docspell/751b0b834617c1f3d21fb738f4778e444ef316b0/LICENSE.txt",
+      "path": "sources/snapshots/eikek--docspell-license.txt",
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+      "http_status": 200,
+      "line_count": 661,
+      "upstream_filename": "LICENSE.txt"
+    }
+  ],
+  "failures": []
+}

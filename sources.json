@@ -1,0 +1,1234 @@
+{
+  "repository": "open-source-document-workflow-index",
+  "checked_on": "2026-11-21",
+  "language": "en",
+  "policy": "Commit-frozen original upstream documents with located short claims. HEAD availability is identity evidence, not a maintenance verdict.",
+  "sources": [
+    {
+      "name": "Paperless-ngx",
+      "repository": "paperless-ngx/paperless-ngx",
+      "url": "https://github.com/paperless-ngx/paperless-ngx",
+      "clone_url": "https://github.com/paperless-ngx/paperless-ngx.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:14:23.390172+08:00",
+      "version_or_commit": "4973be8499bc61dc4f791a609d0d31e9ac9ccd41",
+      "branch_at_observation": "dev",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/4973be8499bc61dc4f791a609d0d31e9ac9ccd41/README.md",
+          "final_url": "https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/4973be8499bc61dc4f791a609d0d31e9ac9ccd41/README.md",
+          "path": "sources/snapshots/paperless-ngx--paperless-ngx-readme.txt",
+          "sha256": "57aadae7f68c77d36a3ed5b2954129e8675b7e63c2453bf16c93bce774cdb7ec",
+          "http_status": 200,
+          "line_count": 99,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/4973be8499bc61dc4f791a609d0d31e9ac9ccd41/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/4973be8499bc61dc4f791a609d0d31e9ac9ccd41/LICENSE",
+          "path": "sources/snapshots/paperless-ngx--paperless-ngx-license.txt",
+          "sha256": "d62f065830aa3739cc031156b9690805c7b2e811b4a178c8b4acd8725d561c94",
+          "http_status": 200,
+          "line_count": 675,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/paperless-ngx/paperless-ngx.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/dev\tHEAD\n4973be8499bc61dc4f791a609d0d31e9ac9ccd41\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "paperless-ngx--paperless-ngx-axis-1",
+          "field": "decision_axis_1",
+          "statement": "> Document scanners are typically used to scan sensitive documents like your social insurance number, tax records, invoices, etc. Paperless-ngx should never be run on an untrusted host because informa\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/4973be8499bc61dc4f791a609d0d31e9ac9ccd41/README.md",
+          "version_or_commit": "4973be8499bc61dc4f791a609d0d31e9ac9ccd41",
+          "checked_at": "2026-11-21T21:14:23.390172+08:00",
+          "snapshot_path": "sources/snapshots/paperless-ngx--paperless-ngx-readme.txt",
+          "line_start": 98,
+          "line_end": 98,
+          "upstream_excerpt": "> Document scanners are typically used to scan sensitive documents like your social insurance number, tax records, invoices, etc. **Paperless-ngx should never be run on an untrusted host** because information is stored in clear text without encryption. No guarantees are made regarding security (but we do try!) and you use the app at your own risk.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "paperless-ngx--paperless-ngx-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Paperless-ngx is a document management system that transforms your physical documents into a searchable online archive so you can keep, well, less paper.",
+          "upstream_url": "https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/4973be8499bc61dc4f791a609d0d31e9ac9ccd41/README.md",
+          "version_or_commit": "4973be8499bc61dc4f791a609d0d31e9ac9ccd41",
+          "checked_at": "2026-11-21T21:14:23.390172+08:00",
+          "snapshot_path": "sources/snapshots/paperless-ngx--paperless-ngx-readme.txt",
+          "line_start": 20,
+          "line_end": 20,
+          "upstream_excerpt": "Paperless-ngx is a document management system that transforms your physical documents into a searchable online archive so you can keep, well, _less paper_.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "paperless-ngx--paperless-ngx-axis-3",
+          "field": "decision_axis_3",
+          "statement": "The easiest way to deploy paperless is docker compose. The files in the /docker/compose directory are configured to pull the image from the GitHub container registry.",
+          "upstream_url": "https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/4973be8499bc61dc4f791a609d0d31e9ac9ccd41/README.md",
+          "version_or_commit": "4973be8499bc61dc4f791a609d0d31e9ac9ccd41",
+          "checked_at": "2026-11-21T21:14:23.390172+08:00",
+          "snapshot_path": "sources/snapshots/paperless-ngx--paperless-ngx-readme.txt",
+          "line_start": 54,
+          "line_end": 54,
+          "upstream_excerpt": "The easiest way to deploy paperless is `docker compose`. The files in the [`/docker/compose` directory](https://github.com/paperless-ngx/paperless-ngx/tree/main/docker/compose) are configured to pull the image from the GitHub container registry.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "paperless-ngx--paperless-ngx-license",
+          "field": "license_model",
+          "statement": "GPL-3.0",
+          "upstream_url": "https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/4973be8499bc61dc4f791a609d0d31e9ac9ccd41/LICENSE",
+          "version_or_commit": "4973be8499bc61dc4f791a609d0d31e9ac9ccd41",
+          "checked_at": "2026-11-21T21:14:23.390172+08:00",
+          "snapshot_path": "sources/snapshots/paperless-ngx--paperless-ngx-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU GENERAL PUBLIC LICENSE\n                       Version 3, 29 June 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU General Public License is a free, copyleft license for\nsoftware and other kinds of works.\n",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/paperless-ngx--paperless-ngx-observation.json"
+    },
+    {
+      "name": "Stirling PDF",
+      "repository": "Stirling-Tools/Stirling-PDF",
+      "url": "https://github.com/Stirling-Tools/Stirling-PDF",
+      "clone_url": "https://github.com/Stirling-Tools/Stirling-PDF.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:14:27.002628+08:00",
+      "version_or_commit": "f5503b8910ad5cec06dd6125d7e96d985a6d1248",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/Stirling-Tools/Stirling-PDF/f5503b8910ad5cec06dd6125d7e96d985a6d1248/README.md",
+          "final_url": "https://raw.githubusercontent.com/Stirling-Tools/Stirling-PDF/f5503b8910ad5cec06dd6125d7e96d985a6d1248/README.md",
+          "path": "sources/snapshots/stirling-tools--stirling-pdf-readme.txt",
+          "sha256": "0539da44759af7d1c3da8d76b00b892d9ebda4c82f9e161f01658f188a66ed86",
+          "http_status": 200,
+          "line_count": 69,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/Stirling-Tools/Stirling-PDF/f5503b8910ad5cec06dd6125d7e96d985a6d1248/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/Stirling-Tools/Stirling-PDF/f5503b8910ad5cec06dd6125d7e96d985a6d1248/LICENSE",
+          "path": "sources/snapshots/stirling-tools--stirling-pdf-license.txt",
+          "sha256": "e37c7ec776906aebe25e48288da4305afd45dee92f0231ddec68af59cbd7736b",
+          "http_status": 200,
+          "line_count": 42,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/Stirling-Tools/Stirling-PDF.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\nf5503b8910ad5cec06dd6125d7e96d985a6d1248\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "stirling-tools--stirling-pdf-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Stirling PDF is a powerful, open-source PDF editing platform. Run it as a personal desktop app, in the browser, or deploy it on your own servers with a private API. Edit, sign, redact, convert, and au\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/Stirling-Tools/Stirling-PDF/f5503b8910ad5cec06dd6125d7e96d985a6d1248/README.md",
+          "version_or_commit": "f5503b8910ad5cec06dd6125d7e96d985a6d1248",
+          "checked_at": "2026-11-21T21:14:27.002628+08:00",
+          "snapshot_path": "sources/snapshots/stirling-tools--stirling-pdf-readme.txt",
+          "line_start": 7,
+          "line_end": 7,
+          "upstream_excerpt": "Stirling PDF is a powerful, open-source PDF editing platform. Run it as a personal desktop app, in the browser, or deploy it on your own servers with a private API. Edit, sign, redact, convert, and automate PDFs without sending documents to external services.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "stirling-tools--stirling-pdf-axis-2",
+          "field": "decision_axis_2",
+          "statement": "- Automation & workflows - No-code pipelines direct in UI with APIs to process millions of PDFs.",
+          "upstream_url": "https://raw.githubusercontent.com/Stirling-Tools/Stirling-PDF/f5503b8910ad5cec06dd6125d7e96d985a6d1248/README.md",
+          "version_or_commit": "f5503b8910ad5cec06dd6125d7e96d985a6d1248",
+          "checked_at": "2026-11-21T21:14:27.002628+08:00",
+          "snapshot_path": "sources/snapshots/stirling-tools--stirling-pdf-readme.txt",
+          "line_start": 30,
+          "line_end": 30,
+          "upstream_excerpt": "- **Automation & workflows** - No-code pipelines direct in UI with APIs to process millions of PDFs.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "stirling-tools--stirling-pdf-license",
+          "field": "license_model",
+          "statement": "MIT outside separately licensed app/proprietary, app/saas, engine and listed frontend subdirectories",
+          "upstream_url": "https://raw.githubusercontent.com/Stirling-Tools/Stirling-PDF/f5503b8910ad5cec06dd6125d7e96d985a6d1248/LICENSE",
+          "version_or_commit": "f5503b8910ad5cec06dd6125d7e96d985a6d1248",
+          "checked_at": "2026-11-21T21:14:27.002628+08:00",
+          "snapshot_path": "sources/snapshots/stirling-tools--stirling-pdf-license.txt",
+          "line_start": 1,
+          "line_end": 25,
+          "upstream_excerpt": "MIT License\n\nCopyright (c) 2025 Stirling PDF Inc.\n\nPortions of this software are licensed as follows:\n\n* All content that resides under the \"app/proprietary/\" directory of this repository,\nif that directory exists, is licensed under the license defined in \"app/proprietary/LICENSE\".\n* All content that resides under the \"app/saas/\" directory of this repository,\nif that directory exists, is licensed under the license defined in \"app/saas/LICENSE\".\n* All content that resides under the \"engine/\" directory of this repository,\nif that directory exists, is licensed under the license defined in \"engine/LICENSE\".\n* All content that resides under the \"frontend/src/editor/proprietary/\" directory of this repository,\nif that directory exists, is licensed under the license defined in \"frontend/src/editor/proprietary/LICENSE\".\n* All content that resides under the \"frontend/src/editor/desktop/\" directory of this repository,\nif that directory exists, is licensed under the license defined in \"frontend/src/editor/desktop/LICENSE\".\n* All content that resides under the \"frontend/src/editor/saas/\" directory of this repository,\nif that directory exists, is licensed under the license defined in \"frontend/src/editor/saas/LICENSE\".\n* All content that resides under the \"frontend/src/editor/cloud/\" directory of this repository,\nif that directory exists, is licensed under the license defined in \"frontend/src/editor/cloud/LICENSE\".\n* All content that resides under the \"frontend/src/processor/\" directory of this repository,\nif that directory exists, is licensed under the license defined in \"frontend/src/processor/LICENSE\".\n* Content outside of the above mentioned directories or restrictions above is\navailable under the MIT License as defined below.\n",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/stirling-tools--stirling-pdf-observation.json"
+    },
+    {
+      "name": "OCRmyPDF",
+      "repository": "ocrmypdf/OCRmyPDF",
+      "url": "https://github.com/ocrmypdf/OCRmyPDF",
+      "clone_url": "https://github.com/ocrmypdf/OCRmyPDF.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:14:27.899494+08:00",
+      "version_or_commit": "86a5e723ea2b612e8df4a647056b0ebf3b3c97a5",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/ocrmypdf/OCRmyPDF/86a5e723ea2b612e8df4a647056b0ebf3b3c97a5/README.md",
+          "final_url": "https://raw.githubusercontent.com/ocrmypdf/OCRmyPDF/86a5e723ea2b612e8df4a647056b0ebf3b3c97a5/README.md",
+          "path": "sources/snapshots/ocrmypdf--ocrmypdf-readme.txt",
+          "sha256": "b10f4270559ee2963754c1593dc25eabee971c7c1aedb597e23425cd17c9aca0",
+          "http_status": 200,
+          "line_count": 187,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/ocrmypdf/OCRmyPDF/86a5e723ea2b612e8df4a647056b0ebf3b3c97a5/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/ocrmypdf/OCRmyPDF/86a5e723ea2b612e8df4a647056b0ebf3b3c97a5/LICENSE",
+          "path": "sources/snapshots/ocrmypdf--ocrmypdf-license.txt",
+          "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+          "http_status": 200,
+          "line_count": 373,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/ocrmypdf/OCRmyPDF.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\n86a5e723ea2b612e8df4a647056b0ebf3b3c97a5\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "ocrmypdf--ocrmypdf-axis-1",
+          "field": "decision_axis_1",
+          "statement": "OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be searched or copy-pasted.",
+          "upstream_url": "https://raw.githubusercontent.com/ocrmypdf/OCRmyPDF/86a5e723ea2b612e8df4a647056b0ebf3b3c97a5/README.md",
+          "version_or_commit": "86a5e723ea2b612e8df4a647056b0ebf3b3c97a5",
+          "checked_at": "2026-11-21T21:14:27.899494+08:00",
+          "snapshot_path": "sources/snapshots/ocrmypdf--ocrmypdf-readme.txt",
+          "line_start": 14,
+          "line_end": 14,
+          "upstream_excerpt": "OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be searched or copy-pasted.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "ocrmypdf--ocrmypdf-axis-2",
+          "field": "decision_axis_2",
+          "statement": "OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be searched or copy-pasted.",
+          "upstream_url": "https://raw.githubusercontent.com/ocrmypdf/OCRmyPDF/86a5e723ea2b612e8df4a647056b0ebf3b3c97a5/README.md",
+          "version_or_commit": "86a5e723ea2b612e8df4a647056b0ebf3b3c97a5",
+          "checked_at": "2026-11-21T21:14:27.899494+08:00",
+          "snapshot_path": "sources/snapshots/ocrmypdf--ocrmypdf-readme.txt",
+          "line_start": 14,
+          "line_end": 14,
+          "upstream_excerpt": "OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be searched or copy-pasted.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "ocrmypdf--ocrmypdf-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Linux, Windows, macOS and FreeBSD are supported. Docker images are also available, for both x64 and ARM.",
+          "upstream_url": "https://raw.githubusercontent.com/ocrmypdf/OCRmyPDF/86a5e723ea2b612e8df4a647056b0ebf3b3c97a5/README.md",
+          "version_or_commit": "86a5e723ea2b612e8df4a647056b0ebf3b3c97a5",
+          "checked_at": "2026-11-21T21:14:27.899494+08:00",
+          "snapshot_path": "sources/snapshots/ocrmypdf--ocrmypdf-readme.txt",
+          "line_start": 65,
+          "line_end": 65,
+          "upstream_excerpt": "Linux, Windows, macOS and FreeBSD are supported. Docker images are also available, for both x64 and ARM.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "ocrmypdf--ocrmypdf-license",
+          "field": "license_model",
+          "statement": "MPL-2.0",
+          "upstream_url": "https://raw.githubusercontent.com/ocrmypdf/OCRmyPDF/86a5e723ea2b612e8df4a647056b0ebf3b3c97a5/LICENSE",
+          "version_or_commit": "86a5e723ea2b612e8df4a647056b0ebf3b3c97a5",
+          "checked_at": "2026-11-21T21:14:27.899494+08:00",
+          "snapshot_path": "sources/snapshots/ocrmypdf--ocrmypdf-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "Mozilla Public License Version 2.0\n==================================\n\n1. Definitions\n--------------\n\n1.1. \"Contributor\"\n    means each individual or legal entity that creates, contributes to\n    the creation of, or owns Covered Software.\n\n1.2. \"Contributor Version\"\n    means the combination of the Contributions of others (if any) used",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/ocrmypdf--ocrmypdf-observation.json"
+    },
+    {
+      "name": "Tesseract",
+      "repository": "tesseract-ocr/tesseract",
+      "url": "https://github.com/tesseract-ocr/tesseract",
+      "clone_url": "https://github.com/tesseract-ocr/tesseract.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:14:32.516580+08:00",
+      "version_or_commit": "2516f31c560e056449b6d9e95e10c6feeb6ad618",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/tesseract-ocr/tesseract/2516f31c560e056449b6d9e95e10c6feeb6ad618/README.md",
+          "final_url": "https://raw.githubusercontent.com/tesseract-ocr/tesseract/2516f31c560e056449b6d9e95e10c6feeb6ad618/README.md",
+          "path": "sources/snapshots/tesseract-ocr--tesseract-readme.txt",
+          "sha256": "1a14c7cd54039ffb79e05aff12841f48d4d4da50f231ee98e7e9bb6138d03e7a",
+          "http_status": 200,
+          "line_count": 132,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/tesseract-ocr/tesseract/2516f31c560e056449b6d9e95e10c6feeb6ad618/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/tesseract-ocr/tesseract/2516f31c560e056449b6d9e95e10c6feeb6ad618/LICENSE",
+          "path": "sources/snapshots/tesseract-ocr--tesseract-license.txt",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "http_status": 200,
+          "line_count": 202,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/tesseract-ocr/tesseract.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\n2516f31c560e056449b6d9e95e10c6feeb6ad618\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "tesseract-ocr--tesseract-axis-1",
+          "field": "decision_axis_1",
+          "statement": "This package contains an OCR engine - libtesseract and a command line program - tesseract.",
+          "upstream_url": "https://raw.githubusercontent.com/tesseract-ocr/tesseract/2516f31c560e056449b6d9e95e10c6feeb6ad618/README.md",
+          "version_or_commit": "2516f31c560e056449b6d9e95e10c6feeb6ad618",
+          "checked_at": "2026-11-21T21:14:32.516580+08:00",
+          "snapshot_path": "sources/snapshots/tesseract-ocr--tesseract-readme.txt",
+          "line_start": 25,
+          "line_end": 25,
+          "upstream_excerpt": "This package contains an **OCR engine** - `libtesseract` and a **command line program** - `tesseract`.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "tesseract-ocr--tesseract-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Tesseract supports various output formats: plain text, hOCR (HTML), PDF, invisible-text-only PDF, TSV, ALTO and PAGE.",
+          "upstream_url": "https://raw.githubusercontent.com/tesseract-ocr/tesseract/2516f31c560e056449b6d9e95e10c6feeb6ad618/README.md",
+          "version_or_commit": "2516f31c560e056449b6d9e95e10c6feeb6ad618",
+          "checked_at": "2026-11-21T21:14:32.516580+08:00",
+          "snapshot_path": "sources/snapshots/tesseract-ocr--tesseract-readme.txt",
+          "line_start": 37,
+          "line_end": 37,
+          "upstream_excerpt": "Tesseract supports **various output formats**: plain text, hOCR (HTML), PDF, invisible-text-only PDF, TSV, ALTO and PAGE.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "tesseract-ocr--tesseract-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Tesseract was originally developed at Hewlett-Packard Laboratories Bristol UK and at Hewlett-Packard Co, Greeley Colorado USA between 1985 and 1994, with some more changes made in 1996 to port to Wind\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/tesseract-ocr/tesseract/2516f31c560e056449b6d9e95e10c6feeb6ad618/README.md",
+          "version_or_commit": "2516f31c560e056449b6d9e95e10c6feeb6ad618",
+          "checked_at": "2026-11-21T21:14:32.516580+08:00",
+          "snapshot_path": "sources/snapshots/tesseract-ocr--tesseract-readme.txt",
+          "line_start": 48,
+          "line_end": 48,
+          "upstream_excerpt": "Tesseract was originally developed at Hewlett-Packard Laboratories Bristol UK and at Hewlett-Packard Co, Greeley Colorado USA between 1985 and 1994, with some more changes made in 1996 to port to Windows, and some C++izing in 1998. In 2005 Tesseract was open sourced by HP. From 2006 until August 2017 it was developed by Google.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "tesseract-ocr--tesseract-license",
+          "field": "license_model",
+          "statement": "Apache-2.0",
+          "upstream_url": "https://raw.githubusercontent.com/tesseract-ocr/tesseract/2516f31c560e056449b6d9e95e10c6feeb6ad618/LICENSE",
+          "version_or_commit": "2516f31c560e056449b6d9e95e10c6feeb6ad618",
+          "checked_at": "2026-11-21T21:14:32.516580+08:00",
+          "snapshot_path": "sources/snapshots/tesseract-ocr--tesseract-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "\n                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.\n",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/tesseract-ocr--tesseract-observation.json"
+    },
+    {
+      "name": "Docspell",
+      "repository": "eikek/docspell",
+      "url": "https://github.com/eikek/docspell",
+      "clone_url": "https://github.com/eikek/docspell.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:14:30.111490+08:00",
+      "version_or_commit": "751b0b834617c1f3d21fb738f4778e444ef316b0",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/eikek/docspell/751b0b834617c1f3d21fb738f4778e444ef316b0/README.md",
+          "final_url": "https://raw.githubusercontent.com/eikek/docspell/751b0b834617c1f3d21fb738f4778e444ef316b0/README.md",
+          "path": "sources/snapshots/eikek--docspell-readme.txt",
+          "sha256": "f42da0fa001239c1cfe4026df8f7bf65f3cd7ce4bf2f88a9b3b1994f67f6f207",
+          "http_status": 200,
+          "line_count": 131,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/eikek/docspell/751b0b834617c1f3d21fb738f4778e444ef316b0/LICENSE.txt",
+          "final_url": "https://raw.githubusercontent.com/eikek/docspell/751b0b834617c1f3d21fb738f4778e444ef316b0/LICENSE.txt",
+          "path": "sources/snapshots/eikek--docspell-license.txt",
+          "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+          "http_status": 200,
+          "line_count": 661,
+          "upstream_filename": "LICENSE.txt"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/eikek/docspell.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n751b0b834617c1f3d21fb738f4778e444ef316b0\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "eikek--docspell-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Docspell is a personal document organizer. Or sometimes called a \"Document Management System\" (DMS). You'll need a scanner to convert your papers into files. Docspell can then assist in organizing the\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/eikek/docspell/751b0b834617c1f3d21fb738f4778e444ef316b0/README.md",
+          "version_or_commit": "751b0b834617c1f3d21fb738f4778e444ef316b0",
+          "checked_at": "2026-11-21T21:14:30.111490+08:00",
+          "snapshot_path": "sources/snapshots/eikek--docspell-readme.txt",
+          "line_start": 10,
+          "line_end": 13,
+          "upstream_excerpt": "Docspell is a personal document organizer. Or sometimes called a\n\"Document Management System\" (DMS). You'll need a scanner to convert\nyour papers into files. Docspell can then assist in organizing the\nresulting mess :wink:. It can unify your files from scanners, emails",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "eikek--docspell-axis-2",
+          "field": "decision_axis_2",
+          "statement": "predefined and custom metadata. If your documents are associated with such meta data, you can quickly find them later using the search feature. But adding this manually is a tedious task. Docspell can\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/eikek/docspell/751b0b834617c1f3d21fb738f4778e444ef316b0/README.md",
+          "version_or_commit": "751b0b834617c1f3d21fb738f4778e444ef316b0",
+          "checked_at": "2026-11-21T21:14:30.111490+08:00",
+          "snapshot_path": "sources/snapshots/eikek--docspell-readme.txt",
+          "line_start": 18,
+          "line_end": 21,
+          "upstream_excerpt": "predefined and custom metadata. If your documents are associated with\nsuch meta data, you can quickly find them later using the search\nfeature. But adding this manually is a tedious task. Docspell can help\nby suggesting correspondents, guessing tags or finding dates using",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "eikek--docspell-license",
+          "field": "license_model",
+          "statement": "AGPL-3.0",
+          "upstream_url": "https://raw.githubusercontent.com/eikek/docspell/751b0b834617c1f3d21fb738f4778e444ef316b0/LICENSE.txt",
+          "version_or_commit": "751b0b834617c1f3d21fb738f4778e444ef316b0",
+          "checked_at": "2026-11-21T21:14:30.111490+08:00",
+          "snapshot_path": "sources/snapshots/eikek--docspell-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU AFFERO GENERAL PUBLIC LICENSE\n                       Version 3, 19 November 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU Affero General Public License is a free, copyleft license for\nsoftware and other kinds of works, specifically designed to ensure\ncooperation with the community in the case of network server software.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/eikek--docspell-observation.json"
+    },
+    {
+      "name": "Mayan EDMS",
+      "repository": "mayan-edms/mayan-edms",
+      "url": "https://gitlab.com/mayan-edms/mayan-edms",
+      "clone_url": "https://gitlab.com/mayan-edms/mayan-edms.git",
+      "type": "upstream_gitlab_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:14:33.489578+08:00",
+      "version_or_commit": "834ffec1b539171390358e60a0406870108514f5",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://gitlab.com/mayan-edms/mayan-edms/-/raw/834ffec1b539171390358e60a0406870108514f5/README.rst",
+          "final_url": "https://gitlab.com/mayan-edms/mayan-edms/-/raw/834ffec1b539171390358e60a0406870108514f5/README.rst",
+          "path": "sources/snapshots/mayan-edms--mayan-edms-readme.txt",
+          "sha256": "d9d56d7f7b9903d26547bf7e4e44213f5f7a2c637f252817f0af542984f59ba7",
+          "http_status": 200,
+          "line_count": 90,
+          "upstream_filename": "README.rst"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://gitlab.com/mayan-edms/mayan-edms/-/raw/834ffec1b539171390358e60a0406870108514f5/LICENSE",
+          "final_url": "https://gitlab.com/mayan-edms/mayan-edms/-/raw/834ffec1b539171390358e60a0406870108514f5/LICENSE",
+          "path": "sources/snapshots/mayan-edms--mayan-edms-license.txt",
+          "sha256": "236e07d48e934ebd8546d59761281a779ccc984c39361fb89a3231fa3eae262d",
+          "http_status": 200,
+          "line_count": 24,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://gitlab.com/mayan-edms/mayan-edms.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n834ffec1b539171390358e60a0406870108514f5\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "mayan-edms--mayan-edms-axis-1",
+          "field": "decision_axis_1",
+          "statement": "The most advanced, scalable, and mature open source document management system.",
+          "upstream_url": "https://gitlab.com/mayan-edms/mayan-edms/-/raw/834ffec1b539171390358e60a0406870108514f5/README.rst",
+          "version_or_commit": "834ffec1b539171390358e60a0406870108514f5",
+          "checked_at": "2026-11-21T21:14:33.489578+08:00",
+          "snapshot_path": "sources/snapshots/mayan-edms--mayan-edms-readme.txt",
+          "line_start": 8,
+          "line_end": 8,
+          "upstream_excerpt": "The most advanced, scalable, and mature open source document management system.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "mayan-edms--mayan-edms-license",
+          "field": "license_model",
+          "statement": "GPL-2.0; trademark rights are separate",
+          "upstream_url": "https://gitlab.com/mayan-edms/mayan-edms/-/raw/834ffec1b539171390358e60a0406870108514f5/LICENSE",
+          "version_or_commit": "834ffec1b539171390358e60a0406870108514f5",
+          "checked_at": "2026-11-21T21:14:33.489578+08:00",
+          "snapshot_path": "sources/snapshots/mayan-edms--mayan-edms-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "Copyright (C) 2026 Roberto Rosario\n\nRegistered with the United States Copyright Office under\nRegistration No. TX 8-577-731.\n\nThis program is free software; you can redistribute it and/or\nmodify it under the terms of the GNU General Public License version 2.0\nas published by the Free Software Foundation.\n\nhttps://www.gnu.org/licenses/old-licenses/gpl-2.0.html\n\nThis program is distributed in the hope that it will be useful,",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/mayan-edms--mayan-edms-observation.json"
+    },
+    {
+      "name": "OpenDocMan",
+      "repository": "opendocman/opendocman",
+      "url": "https://github.com/opendocman/opendocman",
+      "clone_url": "https://github.com/opendocman/opendocman.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:14:32.053453+08:00",
+      "version_or_commit": "6f29a4714b0cce7d2bcc0aa5d68bb87bb3bd0975",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/opendocman/opendocman/6f29a4714b0cce7d2bcc0aa5d68bb87bb3bd0975/README.md",
+          "final_url": "https://raw.githubusercontent.com/opendocman/opendocman/6f29a4714b0cce7d2bcc0aa5d68bb87bb3bd0975/README.md",
+          "path": "sources/snapshots/opendocman--opendocman-readme.txt",
+          "sha256": "81374a4e76eb7599cf2aeee1d64b7edf19c88bce28773d385590e2863d976e45",
+          "http_status": 200,
+          "line_count": 332,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/opendocman/opendocman/6f29a4714b0cce7d2bcc0aa5d68bb87bb3bd0975/LICENSE.txt",
+          "final_url": "https://raw.githubusercontent.com/opendocman/opendocman/6f29a4714b0cce7d2bcc0aa5d68bb87bb3bd0975/LICENSE.txt",
+          "path": "sources/snapshots/opendocman--opendocman-license.txt",
+          "sha256": "945d624e60b2431c1f2b3fd5547d09bd115e9ce97716c43c1f28dc4e3de557c8",
+          "http_status": 200,
+          "line_count": 281,
+          "upstream_filename": "LICENSE.txt"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/opendocman/opendocman.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n6f29a4714b0cce7d2bcc0aa5d68bb87bb3bd0975\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "opendocman--opendocman-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Free PHP Document Management System DMS",
+          "upstream_url": "https://raw.githubusercontent.com/opendocman/opendocman/6f29a4714b0cce7d2bcc0aa5d68bb87bb3bd0975/README.md",
+          "version_or_commit": "6f29a4714b0cce7d2bcc0aa5d68bb87bb3bd0975",
+          "checked_at": "2026-11-21T21:14:32.053453+08:00",
+          "snapshot_path": "sources/snapshots/opendocman--opendocman-readme.txt",
+          "line_start": 3,
+          "line_end": 3,
+          "upstream_excerpt": "Free PHP Document Management System DMS",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "opendocman--opendocman-axis-2",
+          "field": "decision_axis_2",
+          "statement": "Free PHP Document Management System DMS",
+          "upstream_url": "https://raw.githubusercontent.com/opendocman/opendocman/6f29a4714b0cce7d2bcc0aa5d68bb87bb3bd0975/README.md",
+          "version_or_commit": "6f29a4714b0cce7d2bcc0aa5d68bb87bb3bd0975",
+          "checked_at": "2026-11-21T21:14:32.053453+08:00",
+          "snapshot_path": "sources/snapshots/opendocman--opendocman-readme.txt",
+          "line_start": 3,
+          "line_end": 3,
+          "upstream_excerpt": "Free PHP Document Management System DMS",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "opendocman--opendocman-axis-3",
+          "field": "decision_axis_3",
+          "statement": "- Database: MySQL 8+, MariaDB 10.0+",
+          "upstream_url": "https://raw.githubusercontent.com/opendocman/opendocman/6f29a4714b0cce7d2bcc0aa5d68bb87bb3bd0975/README.md",
+          "version_or_commit": "6f29a4714b0cce7d2bcc0aa5d68bb87bb3bd0975",
+          "checked_at": "2026-11-21T21:14:32.053453+08:00",
+          "snapshot_path": "sources/snapshots/opendocman--opendocman-readme.txt",
+          "line_start": 21,
+          "line_end": 21,
+          "upstream_excerpt": "- Database: MySQL 8+, MariaDB 10.0+",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "opendocman--opendocman-license",
+          "field": "license_model",
+          "statement": "GPL-2.0",
+          "upstream_url": "https://raw.githubusercontent.com/opendocman/opendocman/6f29a4714b0cce7d2bcc0aa5d68bb87bb3bd0975/LICENSE.txt",
+          "version_or_commit": "6f29a4714b0cce7d2bcc0aa5d68bb87bb3bd0975",
+          "checked_at": "2026-11-21T21:14:32.053453+08:00",
+          "snapshot_path": "sources/snapshots/opendocman--opendocman-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "\t\t    GNU GENERAL PUBLIC LICENSE\n\t\t       Version 2, June 1991\n\n Copyright (C) 1989, 1991 Free Software Foundation, Inc.\n 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA\n\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n\t\t\t    Preamble\n\n  The licenses for most software are designed to take away your",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/opendocman--opendocman-observation.json"
+    },
+    {
+      "name": "Archivematica",
+      "repository": "artefactual/archivematica",
+      "url": "https://github.com/artefactual/archivematica",
+      "clone_url": "https://github.com/artefactual/archivematica.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:14:34.930188+08:00",
+      "version_or_commit": "8b715e088c0f6e908ae742805ce696d3ba851de7",
+      "branch_at_observation": "qa/1.x",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/artefactual/archivematica/8b715e088c0f6e908ae742805ce696d3ba851de7/README.md",
+          "final_url": "https://raw.githubusercontent.com/artefactual/archivematica/8b715e088c0f6e908ae742805ce696d3ba851de7/README.md",
+          "path": "sources/snapshots/artefactual--archivematica-readme.txt",
+          "sha256": "d5442bc95986a9d1d97f56d2c864247af97476820bd159625d6fcf78e9aee3c7",
+          "http_status": 200,
+          "line_count": 123,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/artefactual/archivematica/8b715e088c0f6e908ae742805ce696d3ba851de7/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/artefactual/archivematica/8b715e088c0f6e908ae742805ce696d3ba851de7/LICENSE",
+          "path": "sources/snapshots/artefactual--archivematica-license.txt",
+          "sha256": "91b65277959ec273763d28ef002e83a6b3fba57c7a35436c9e5b66536333d720",
+          "http_status": 200,
+          "line_count": 661,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/artefactual/archivematica.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/qa/1.x\tHEAD\n8b715e088c0f6e908ae742805ce696d3ba851de7\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "artefactual--archivematica-axis-1",
+          "field": "decision_axis_1",
+          "statement": "allows your institution to preserve long-term access to trustworthy, authentic and reliable digital content. Our target users are archivists, librarians, and anyone working to preserve digital objects\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/artefactual/archivematica/8b715e088c0f6e908ae742805ce696d3ba851de7/README.md",
+          "version_or_commit": "8b715e088c0f6e908ae742805ce696d3ba851de7",
+          "checked_at": "2026-11-21T21:14:34.930188+08:00",
+          "snapshot_path": "sources/snapshots/artefactual--archivematica-readme.txt",
+          "line_start": 9,
+          "line_end": 12,
+          "upstream_excerpt": "allows your institution to preserve long-term access to trustworthy,\nauthentic and reliable digital content.\nOur target users are archivists, librarians, and anyone working to preserve\ndigital objects.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "artefactual--archivematica-axis-2",
+          "field": "decision_axis_2",
+          "statement": "allows your institution to preserve long-term access to trustworthy, authentic and reliable digital content. Our target users are archivists, librarians, and anyone working to preserve digital objects\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/artefactual/archivematica/8b715e088c0f6e908ae742805ce696d3ba851de7/README.md",
+          "version_or_commit": "8b715e088c0f6e908ae742805ce696d3ba851de7",
+          "checked_at": "2026-11-21T21:14:34.930188+08:00",
+          "snapshot_path": "sources/snapshots/artefactual--archivematica-readme.txt",
+          "line_start": 9,
+          "line_end": 12,
+          "upstream_excerpt": "allows your institution to preserve long-term access to trustworthy,\nauthentic and reliable digital content.\nOur target users are archivists, librarians, and anyone working to preserve\ndigital objects.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "artefactual--archivematica-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Issues related to Archivematica, the Storage Service, or any related repository can be filed in the [Issues] repository.",
+          "upstream_url": "https://raw.githubusercontent.com/artefactual/archivematica/8b715e088c0f6e908ae742805ce696d3ba851de7/README.md",
+          "version_or_commit": "8b715e088c0f6e908ae742805ce696d3ba851de7",
+          "checked_at": "2026-11-21T21:14:34.930188+08:00",
+          "snapshot_path": "sources/snapshots/artefactual--archivematica-readme.txt",
+          "line_start": 65,
+          "line_end": 66,
+          "upstream_excerpt": "Issues related to Archivematica, the Storage Service, or any related\nrepository can be filed in the [Issues] repository.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "artefactual--archivematica-license",
+          "field": "license_model",
+          "statement": "AGPL-3.0",
+          "upstream_url": "https://raw.githubusercontent.com/artefactual/archivematica/8b715e088c0f6e908ae742805ce696d3ba851de7/LICENSE",
+          "version_or_commit": "8b715e088c0f6e908ae742805ce696d3ba851de7",
+          "checked_at": "2026-11-21T21:14:34.930188+08:00",
+          "snapshot_path": "sources/snapshots/artefactual--archivematica-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                    GNU AFFERO GENERAL PUBLIC LICENSE\n                       Version 3, 19 November 2007\n\n Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The GNU Affero General Public License is a free, copyleft license for\nsoftware and other kinds of works, specifically designed to ensure\ncooperation with the community in the case of network server software.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/artefactual--archivematica-observation.json"
+    },
+    {
+      "name": "Teedy",
+      "repository": "sismics/docs",
+      "url": "https://github.com/sismics/docs",
+      "clone_url": "https://github.com/sismics/docs.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:14:39.479317+08:00",
+      "version_or_commit": "5b39c4680b5a107a44d9d38bdf45e8fb6953128f",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/sismics/docs/5b39c4680b5a107a44d9d38bdf45e8fb6953128f/README.md",
+          "final_url": "https://raw.githubusercontent.com/sismics/docs/5b39c4680b5a107a44d9d38bdf45e8fb6953128f/README.md",
+          "path": "sources/snapshots/sismics--docs-readme.txt",
+          "sha256": "a4ff0d1b86c10ae1c6a0e17c92673b4621ed8de26d542167c84b748ed3c5b7a6",
+          "http_status": 200,
+          "line_count": 246,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/sismics/docs/5b39c4680b5a107a44d9d38bdf45e8fb6953128f/COPYING",
+          "final_url": "https://raw.githubusercontent.com/sismics/docs/5b39c4680b5a107a44d9d38bdf45e8fb6953128f/COPYING",
+          "path": "sources/snapshots/sismics--docs-license.txt",
+          "sha256": "f371b80469fb235bc500ec29e0e85b682d4a6157a158567d828ff0be544d4f1d",
+          "http_status": 200,
+          "line_count": 339,
+          "upstream_filename": "COPYING"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/sismics/docs.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n5b39c4680b5a107a44d9d38bdf45e8fb6953128f\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "sismics--docs-axis-1",
+          "field": "decision_axis_1",
+          "statement": "- Import document from email (EML format) - Automatic inbox scanning and importing",
+          "upstream_url": "https://raw.githubusercontent.com/sismics/docs/5b39c4680b5a107a44d9d38bdf45e8fb6953128f/README.md",
+          "version_or_commit": "5b39c4680b5a107a44d9d38bdf45e8fb6953128f",
+          "checked_at": "2026-11-21T21:14:39.479317+08:00",
+          "snapshot_path": "sources/snapshots/sismics--docs-readme.txt",
+          "line_start": 41,
+          "line_end": 42,
+          "upstream_excerpt": "- Import document from email (EML format)\n- Automatic inbox scanning and importing",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "sismics--docs-axis-2",
+          "field": "decision_axis_2",
+          "statement": "- Flexible search engine with suggestions and highlighting - Full text search in all supported files - All Dublin Core metadata - Custom user-defined metadata !New!",
+          "upstream_url": "https://raw.githubusercontent.com/sismics/docs/5b39c4680b5a107a44d9d38bdf45e8fb6953128f/README.md",
+          "version_or_commit": "5b39c4680b5a107a44d9d38bdf45e8fb6953128f",
+          "checked_at": "2026-11-21T21:14:39.479317+08:00",
+          "snapshot_path": "sources/snapshots/sismics--docs-readme.txt",
+          "line_start": 33,
+          "line_end": 36,
+          "upstream_excerpt": "- Flexible search engine with suggestions and highlighting\n- Full text search in all supported files\n- All [Dublin Core](http://dublincore.org/) metadata\n- Custom user-defined metadata ![New!](https://www.sismics.com/public/img/new.png)",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "sismics--docs-axis-3",
+          "field": "decision_axis_3",
+          "statement": "A preconfigured Docker image is available, including OCR and media conversion tools, listening on port 8080. If no PostgreSQL config is provided, the database is an embedded H2 database. The H2 embedd\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/sismics/docs/5b39c4680b5a107a44d9d38bdf45e8fb6953128f/README.md",
+          "version_or_commit": "5b39c4680b5a107a44d9d38bdf45e8fb6953128f",
+          "checked_at": "2026-11-21T21:14:39.479317+08:00",
+          "snapshot_path": "sources/snapshots/sismics--docs-readme.txt",
+          "line_start": 58,
+          "line_end": 58,
+          "upstream_excerpt": "A preconfigured Docker image is available, including OCR and media conversion tools, listening on port 8080. If no PostgreSQL config is provided, the database is an embedded H2 database. The H2 embedded database should only be used for testing. For production usage use the provided PostgreSQL configuration (check the Docker Compose example)",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "sismics--docs-license",
+          "field": "license_model",
+          "statement": "GPL-2.0",
+          "upstream_url": "https://raw.githubusercontent.com/sismics/docs/5b39c4680b5a107a44d9d38bdf45e8fb6953128f/COPYING",
+          "version_or_commit": "5b39c4680b5a107a44d9d38bdf45e8fb6953128f",
+          "checked_at": "2026-11-21T21:14:39.479317+08:00",
+          "snapshot_path": "sources/snapshots/sismics--docs-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "GNU GENERAL PUBLIC LICENSE\n                       Version 2, June 1991\n\n Copyright (C) 1989, 1991 Free Software Foundation, Inc.,\n 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA\n Everyone is permitted to copy and distribute verbatim copies\n of this license document, but changing it is not allowed.\n\n                            Preamble\n\n  The licenses for most software are designed to take away your\nfreedom to share and change it.  By contrast, the GNU General Public",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/sismics--docs-observation.json"
+    },
+    {
+      "name": "Papermerge OSS",
+      "repository": "papermerge/papermerge-core",
+      "url": "https://github.com/papermerge/papermerge-core",
+      "clone_url": "https://github.com/papermerge/papermerge-core.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:14:42.711522+08:00",
+      "version_or_commit": "831c2e355cf5c841c4587fea19d89e9b46a92b79",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/papermerge/papermerge-core/831c2e355cf5c841c4587fea19d89e9b46a92b79/README.md",
+          "final_url": "https://raw.githubusercontent.com/papermerge/papermerge-core/831c2e355cf5c841c4587fea19d89e9b46a92b79/README.md",
+          "path": "sources/snapshots/papermerge--papermerge-core-readme.txt",
+          "sha256": "662bf050023b6d346bdd71988242a723b7344ef6f19bcf2b439eccbc7a748f37",
+          "http_status": 200,
+          "line_count": 75,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/papermerge/papermerge-core/831c2e355cf5c841c4587fea19d89e9b46a92b79/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/papermerge/papermerge-core/831c2e355cf5c841c4587fea19d89e9b46a92b79/LICENSE",
+          "path": "sources/snapshots/papermerge--papermerge-core-license.txt",
+          "sha256": "d57c366fc553acaa4ca10ab3c9180d90083c72ab7e3e16f97659927bf71ef38e",
+          "http_status": 200,
+          "line_count": 178,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/papermerge/papermerge-core.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n831c2e355cf5c841c4587fea19d89e9b46a92b79\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "papermerge--papermerge-core-axis-1",
+          "field": "decision_axis_1",
+          "statement": "Papermerge OSS (Open Source) is a document management system for scanned documents, with OCR, full-text search, tags, folders, and a desktop-like web UI.",
+          "upstream_url": "https://raw.githubusercontent.com/papermerge/papermerge-core/831c2e355cf5c841c4587fea19d89e9b46a92b79/README.md",
+          "version_or_commit": "831c2e355cf5c841c4587fea19d89e9b46a92b79",
+          "checked_at": "2026-11-21T21:14:42.711522+08:00",
+          "snapshot_path": "sources/snapshots/papermerge--papermerge-core-readme.txt",
+          "line_start": 3,
+          "line_end": 4,
+          "upstream_excerpt": "Papermerge OSS (Open Source) is a document management system for scanned\ndocuments, with OCR, full-text search, tags, folders, and a desktop-like web UI.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "papermerge--papermerge-core-axis-2",
+          "field": "decision_axis_2",
+          "statement": "documents, with OCR, full-text search, tags, folders, and a desktop-like web UI.",
+          "upstream_url": "https://raw.githubusercontent.com/papermerge/papermerge-core/831c2e355cf5c841c4587fea19d89e9b46a92b79/README.md",
+          "version_or_commit": "831c2e355cf5c841c4587fea19d89e9b46a92b79",
+          "checked_at": "2026-11-21T21:14:42.711522+08:00",
+          "snapshot_path": "sources/snapshots/papermerge--papermerge-core-readme.txt",
+          "line_start": 4,
+          "line_end": 4,
+          "upstream_excerpt": "documents, with OCR, full-text search, tags, folders, and a desktop-like web UI.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "papermerge--papermerge-core-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Want to run Papermerge OSS (Open Source) from source? The development setup (PostgreSQL, environment variables, backend and frontend, running tests, CLI commands like uv run pm search build, pre-commi\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/papermerge/papermerge-core/831c2e355cf5c841c4587fea19d89e9b46a92b79/README.md",
+          "version_or_commit": "831c2e355cf5c841c4587fea19d89e9b46a92b79",
+          "checked_at": "2026-11-21T21:14:42.711522+08:00",
+          "snapshot_path": "sources/snapshots/papermerge--papermerge-core-readme.txt",
+          "line_start": 72,
+          "line_end": 75,
+          "upstream_excerpt": "Want to run Papermerge OSS (Open Source) from source? The development setup (PostgreSQL, environment\nvariables, backend and frontend, running tests, CLI commands like `uv run pm search build`,\npre-commit hooks) and the contribution workflow are described in\n[CONTRIBUTING.md](CONTRIBUTING.md).",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "papermerge--papermerge-core-license",
+          "field": "license_model",
+          "statement": "Apache-2.0",
+          "upstream_url": "https://raw.githubusercontent.com/papermerge/papermerge-core/831c2e355cf5c841c4587fea19d89e9b46a92b79/LICENSE",
+          "version_or_commit": "831c2e355cf5c841c4587fea19d89e9b46a92b79",
+          "checked_at": "2026-11-21T21:14:42.711522+08:00",
+          "snapshot_path": "sources/snapshots/papermerge--papermerge-core-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "                                 Apache License\n                           Version 2.0, January 2004\n                        http://www.apache.org/licenses/\n\n   Copyright Eugen Ciur <eugen@papermerge.com>\n\n   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n   1. Definitions.\n\n      \"License\" shall mean the terms and conditions for use, reproduction,\n      and distribution as defined by Sections 1 through 9 of this document.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/papermerge--papermerge-core-observation.json"
+    },
+    {
+      "name": "NAPS2",
+      "repository": "cyanfish/naps2",
+      "url": "https://github.com/cyanfish/naps2",
+      "clone_url": "https://github.com/cyanfish/naps2.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:14:43.029450+08:00",
+      "version_or_commit": "07f1fd3667373e7a07dd095e9703a72d588e1a5a",
+      "branch_at_observation": "master",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/cyanfish/naps2/07f1fd3667373e7a07dd095e9703a72d588e1a5a/README.md",
+          "final_url": "https://raw.githubusercontent.com/cyanfish/naps2/07f1fd3667373e7a07dd095e9703a72d588e1a5a/README.md",
+          "path": "sources/snapshots/cyanfish--naps2-readme.txt",
+          "sha256": "4361c16c3ecf0bbd79d6e4bbf327927510be6d532b276201c88013d7c52a1db8",
+          "http_status": 200,
+          "line_count": 42,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/cyanfish/naps2/07f1fd3667373e7a07dd095e9703a72d588e1a5a/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/cyanfish/naps2/07f1fd3667373e7a07dd095e9703a72d588e1a5a/LICENSE",
+          "path": "sources/snapshots/cyanfish--naps2-license.txt",
+          "sha256": "e9e8ee8f069747db728edd62d38f032989de5c49ebf383d59ac64da84a157951",
+          "http_status": 200,
+          "line_count": 299,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/cyanfish/naps2.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/master\tHEAD\n07f1fd3667373e7a07dd095e9703a72d588e1a5a\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "cyanfish--naps2-axis-3",
+          "field": "decision_axis_3",
+          "statement": "NAPS2.Sdk is a fully-featured scanning library, supporting WIA, TWAIN, SANE, and ESCL scanners on Windows, Mac, and Linux. Read more.",
+          "upstream_url": "https://raw.githubusercontent.com/cyanfish/naps2/07f1fd3667373e7a07dd095e9703a72d588e1a5a/README.md",
+          "version_or_commit": "07f1fd3667373e7a07dd095e9703a72d588e1a5a",
+          "checked_at": "2026-11-21T21:14:43.029450+08:00",
+          "snapshot_path": "sources/snapshots/cyanfish--naps2-readme.txt",
+          "line_start": 29,
+          "line_end": 30,
+          "upstream_excerpt": "[NAPS2.Sdk](https://github.com/cyanfish/naps2/tree/master/NAPS2.Sdk) is a fully-featured scanning library, supporting WIA, TWAIN, SANE, and ESCL scanners on Windows, Mac, and Linux.\n[Read more.](https://github.com/cyanfish/naps2/tree/master/NAPS2.Sdk)",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "cyanfish--naps2-license",
+          "field": "license_model",
+          "statement": "GPL-2.0-or-later; SDK components include LGPL or MIT terms",
+          "upstream_url": "https://raw.githubusercontent.com/cyanfish/naps2/07f1fd3667373e7a07dd095e9703a72d588e1a5a/LICENSE",
+          "version_or_commit": "07f1fd3667373e7a07dd095e9703a72d588e1a5a",
+          "checked_at": "2026-11-21T21:14:43.029450+08:00",
+          "snapshot_path": "sources/snapshots/cyanfish--naps2-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "NAPS2 - Not Another PDF Scanner\nhttps://www.naps2.com\n\nCopyright 2009-2026 NAPS2 Contributors\n\nThis program is free software; you can redistribute it and/or\nmodify it under the terms of the GNU General Public License\nas published by the Free Software Foundation; either version 2\nof the License, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/cyanfish--naps2-observation.json"
+    },
+    {
+      "name": "DSpace",
+      "repository": "DSpace/DSpace",
+      "url": "https://github.com/DSpace/DSpace",
+      "clone_url": "https://github.com/DSpace/DSpace.git",
+      "type": "upstream_github_repository",
+      "canonical": true,
+      "used_for": [
+        "located decision-axis declarations",
+        "frozen license boundary",
+        "public HEAD identity only"
+      ],
+      "evidence_limit": "Frozen upstream text supports only the cited declarations; unknown axes are not guessed. No independent product test.",
+      "checked_at": "2026-11-21T21:14:44.118167+08:00",
+      "version_or_commit": "7ad52048c3143f161f6cb8ad93b15243aad3913f",
+      "branch_at_observation": "main",
+      "documents": [
+        {
+          "kind": "readme",
+          "upstream_url": "https://raw.githubusercontent.com/DSpace/DSpace/7ad52048c3143f161f6cb8ad93b15243aad3913f/README.md",
+          "final_url": "https://raw.githubusercontent.com/DSpace/DSpace/7ad52048c3143f161f6cb8ad93b15243aad3913f/README.md",
+          "path": "sources/snapshots/dspace--dspace-readme.txt",
+          "sha256": "c4d26db86760ddbb1f64c994aa1a12c45c06e47cbbc881e1155c8c0b96e126cb",
+          "http_status": 200,
+          "line_count": 133,
+          "upstream_filename": "README.md"
+        },
+        {
+          "kind": "license",
+          "upstream_url": "https://raw.githubusercontent.com/DSpace/DSpace/7ad52048c3143f161f6cb8ad93b15243aad3913f/LICENSE",
+          "final_url": "https://raw.githubusercontent.com/DSpace/DSpace/7ad52048c3143f161f6cb8ad93b15243aad3913f/LICENSE",
+          "path": "sources/snapshots/dspace--dspace-license.txt",
+          "sha256": "baf9ee18d437bf88b271cb233298c1b032d38b7e1629274069651ebcdbddd005",
+          "http_status": 200,
+          "line_count": 31,
+          "upstream_filename": "LICENSE"
+        }
+      ],
+      "identity_observation": {
+        "identity_command": [
+          "git",
+          "ls-remote",
+          "--symref",
+          "https://github.com/DSpace/DSpace.git",
+          "HEAD"
+        ],
+        "identity_output": "ref: refs/heads/main\tHEAD\n7ad52048c3143f161f6cb8ad93b15243aad3913f\tHEAD\n",
+        "identity_exit": 0
+      },
+      "claims": [
+        {
+          "claim_id": "dspace--dspace-axis-1",
+          "field": "decision_axis_1",
+          "statement": "DSpace open source software is a turnkey repository application used by more than 2,000 organizations and institutions worldwide to provide durable access to digital resources. For more information, v\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/DSpace/DSpace/7ad52048c3143f161f6cb8ad93b15243aad3913f/README.md",
+          "version_or_commit": "7ad52048c3143f161f6cb8ad93b15243aad3913f",
+          "checked_at": "2026-11-21T21:14:44.118167+08:00",
+          "snapshot_path": "sources/snapshots/dspace--dspace-readme.txt",
+          "line_start": 13,
+          "line_end": 15,
+          "upstream_excerpt": "DSpace open source software is a turnkey repository application used by more than\n2,000 organizations and institutions worldwide to provide durable access to digital resources.\nFor more information, visit https://dspace.org/",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "dspace--dspace-axis-2",
+          "field": "decision_axis_2",
+          "statement": "DSpace open source software is a turnkey repository application used by more than 2,000 organizations and institutions worldwide to provide durable access to digital resources. For more information, v\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/DSpace/DSpace/7ad52048c3143f161f6cb8ad93b15243aad3913f/README.md",
+          "version_or_commit": "7ad52048c3143f161f6cb8ad93b15243aad3913f",
+          "checked_at": "2026-11-21T21:14:44.118167+08:00",
+          "snapshot_path": "sources/snapshots/dspace--dspace-readme.txt",
+          "line_start": 13,
+          "line_end": 15,
+          "upstream_excerpt": "DSpace open source software is a turnkey repository application used by more than\n2,000 organizations and institutions worldwide to provide durable access to digital resources.\nFor more information, visit https://dspace.org/",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "dspace--dspace-axis-3",
+          "field": "decision_axis_3",
+          "statement": "Please be aware that, as a Java web application, DSpace requires a database (PostgreSQL) and a servlet container (usually Tomcat) in order to function. More information about these and all other prere\u2026",
+          "upstream_url": "https://raw.githubusercontent.com/DSpace/DSpace/7ad52048c3143f161f6cb8ad93b15243aad3913f/README.md",
+          "version_or_commit": "7ad52048c3143f161f6cb8ad93b15243aad3913f",
+          "checked_at": "2026-11-21T21:14:44.118167+08:00",
+          "snapshot_path": "sources/snapshots/dspace--dspace-readme.txt",
+          "line_start": 37,
+          "line_end": 39,
+          "upstream_excerpt": "Please be aware that, as a Java web application, DSpace requires a database (PostgreSQL)\nand a servlet container (usually Tomcat) in order to function.\nMore information about these and all other prerequisites can be found in the Installation instructions above.",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        },
+        {
+          "claim_id": "dspace--dspace-license",
+          "field": "license_model",
+          "statement": "BSD-3-Clause",
+          "upstream_url": "https://raw.githubusercontent.com/DSpace/DSpace/7ad52048c3143f161f6cb8ad93b15243aad3913f/LICENSE",
+          "version_or_commit": "7ad52048c3143f161f6cb8ad93b15243aad3913f",
+          "checked_at": "2026-11-21T21:14:44.118167+08:00",
+          "snapshot_path": "sources/snapshots/dspace--dspace-license.txt",
+          "line_start": 1,
+          "line_end": 12,
+          "upstream_excerpt": "BSD 3-Clause License\n\nCopyright (c) 2002-2021, LYRASIS.  All rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are\nmet:\n\n- Redistributions of source code must retain the above copyright\nnotice, this list of conditions and the following disclaimer.\n\n- Redistributions in binary form must reproduce the above copyright",
+          "review_result": "located_upstream_declaration",
+          "verification_scope": "documentation only; not independent behavior or maintenance certification"
+        }
+      ],
+      "evidence_record": "sources/snapshots/dspace--dspace-observation.json"
+    }
+  ],
+  "checked_at": "2026-11-21T21:30:02.673781+08:00",
+  "review_round": "narrow_remediation"
+}
