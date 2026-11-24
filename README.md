@@ -1,8 +1,9 @@
 # Open-Source Document Workflow Index
 
-> **Decision:** Assemble capture, OCR, document management, retrieval, retention, and preservation as explicit stages instead of expecting one product to own every stage.
 
-**For:** A household, office, or archivist turning scans and PDFs into searchable, governed records.  
+> **Decision:** Use this index to assemble capture, OCR, document management, retrieval, retention, and preservation as explicit stages; skip it if one application is expected to own the entire document lifecycle.
+>
+> **For:** households, offices, and archivists building searchable governed records  ·  **Not for:** users seeking a simple cloud drive or unwilling to preserve originals and export paths
 
 This is a non-commercial, source-traceable decision guide. It normalizes upstream declarations; it does not claim that repository reachability proves functionality, security, maintenance, or fitness.
 
@@ -152,6 +153,12 @@ A small paper workflow can be NAPS2 → OCRmyPDF → Paperless-ngx. An instituti
 
 Human documents, OCR and governed records, not code retrieval or newsletter publishing.
 
+## Adjacent guides
+
+- [self-hosted-photo-library-decision-guide](https://github.com/Thomas664951/self-hosted-photo-library-decision-guide) — Use it when the collection is primarily photos and videos with mobile backup, RAW, search, and album needs.
+- [self-hosted-read-it-later-landscape](https://github.com/rayrooto/self-hosted-read-it-later-landscape) — Use it when web capture and reading state feed the document preservation workflow.
+- [encrypted-backup-tool-selector](https://github.com/Anguianodd/encrypted-backup-tool-selector) — Use it when originals, derivatives, metadata, and indexes need a tested encrypted restore path.
+
 ## Located sources and update policy
 
 [`sources.json`](sources.json) binds each cited declaration to a commit, document, exact line range and local snapshot hash. [`assets/projects.json`](assets/projects.json) holds the normalized roles and decision axes. Current HEAD reachability is recorded separately; it is not a maintenance or security assessment. Licensing is version- and directory-specific. Re-read the selected release before adoption.
@@ -164,3 +171,5 @@ python3 scripts/verify_sources.py --online
 ```
 
 These checks validate source binding, excerpts, hashes, language, the decision asset and nonempty public content. They do not certify feature behavior, migration success or restore success. No popularity score, paid placement or affiliate ranking is used. Restricted-license and historical examples are explicit contrasts, not silently recommended open-source defaults.
+
+If this saved you a decision, star the repo — it is how the next reader finds it.
