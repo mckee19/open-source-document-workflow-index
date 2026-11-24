@@ -1,6 +1,5 @@
 # Open-Source Document Workflow Index
 
-
 > **Decision:** Use this index to assemble capture, OCR, document management, retrieval, retention, and preservation as explicit stages; skip it if one application is expected to own the entire document lifecycle.
 >
 > **For:** households, offices, and archivists building searchable governed records  ·  **Not for:** users seeking a simple cloud drive or unwilling to preserve originals and export paths
@@ -10,7 +9,6 @@ This is a non-commercial, source-traceable decision guide. It normalizes upstrea
 **Start here:** [Download the document lifecycle ledger](assets/document-lifecycle-map.csv) — twelve projects, located upstream evidence, and explicit unknowns.
 
 ## Choose by workload
-
 
 - Personal searchable archive: start with Paperless-ngx, Papermerge OSS, or Teedy, then test export and restore.
 - Scan at the workstation: NAPS2 captures pages; OCRmyPDF or Tesseract handles OCR, but neither is a records system.
@@ -24,12 +22,10 @@ Select one authoritative original. OCR text, transformed PDFs and preservation p
 
 ## Capture-to-preservation map
 
-
 - **Capture and transform** — NAPS2 captures from scanner APIs; Stirling PDF reshapes PDFs; OCRmyPDF and Tesseract add text. These tools produce inputs for a manager rather than owning records.
 - **Searchable document managers** — Paperless-ngx, Papermerge OSS, Teedy, and Docspell target searchable operational archives with different metadata and automation models.
 - **Governed DMS** — Mayan EDMS and OpenDocMan emphasize users, versions, and workflow; compare authoritative storage and upgrade procedures, not screenshots.
 - **Repository and preservation** — DSpace exposes a repository backend plus separate frontend; Archivematica builds preservation packages and depends on companion services.
-
 
 ## Document lifecycle ledger
 
@@ -52,9 +48,7 @@ Values are short excerpts from the frozen upstream README, not feature-test scor
 
 ## Keep the authority path explicit
 
-
 A small paper workflow can be NAPS2 → OCRmyPDF → Paperless-ngx. An institution may instead ingest curated objects into DSpace, and pass preservation copies through Archivematica. Never let an OCR output folder and a DMS database both appear authoritative without an explicit retention rule.
-
 
 ## Adoption notes by project
 
